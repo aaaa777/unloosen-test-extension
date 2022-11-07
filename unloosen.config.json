@@ -1,0 +1,13 @@
+{
+    "service_worker": "src/rb/worker1.rb",
+    "content_scripts": [
+        {
+            "rb": ["src/rb/content_script1.rb"],
+            "matches": ["<all_urls>"]
+        },
+        {
+            "rb": ["src/rb/content_script2.rb"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
